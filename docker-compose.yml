@@ -38,11 +38,11 @@ services:
     links:
       - db:database
     # environment:
-    #   ETHEREUM_JSONRPC_HTTP_URL: http://localhost:8545
+    #   ETHEREUM_JSONRPC_HTTP_URL: http://65.20.83.193:8545
 
-    #   ETHEREUM_JSONRPC_TRACE_URL: http://localhost:8545
+    #   ETHEREUM_JSONRPC_TRACE_URL: http://65.20.83.193:8545
 
-    #   ETHEREUM_JSONRPC_WS_URL: https://wss.localhost
+    #   ETHEREUM_JSONRPC_WS_URL: https://wss.65.20.83.193
     #   CHAIN_ID: '22777'
 
   visualizer:
